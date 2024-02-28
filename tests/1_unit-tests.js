@@ -5,7 +5,7 @@ suite('Unit Tests', function () {
   suite('Basic Assertions', function () {
    /** 1 - Use assert.isNull() or assert.isNotNull() to make the tests pass. **/
 test('#isNull, #isNotNull', function() {
-  assert.isNull(
+  assert.isNotNull(
     null,
     'this is an optional error description - e.g. null is null'
   );
